@@ -1,0 +1,8 @@
+CREATE SCHEMA NBNDB2;
+CREATE DATABASE NBNDB;
+SHOW SCHEMAS;
+
+workbench
+shell
+command prompt
+command line client

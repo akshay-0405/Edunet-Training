@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+</head>
+
+<body>
+
+    <h1 ></h1>
+    <form action="">
+        <input type="text" name="fname" id="namefjs" placeholder="Enter First Name">
+        <input type="text" name="lname" id="nameljs" placeholder="Enter Last Name">
+        <input type="number" name="age" id="agejs" placeholder="Enter your Age">
+        <input type="submit" onclick="getName()">
+
+    </form>
+
+    <script>
+        function getName() {
+            fname = document.getElementById("namefjs").value;
+            lname = document.getElementById("nameljs").value;
+            age=document.getElementById("agejs").value;
+            window.alert("Hello "+fname+" "+lname);
+            window.alert("Your age is " + age);
+        }
+    </script>
+
+</body>
+
+</html>

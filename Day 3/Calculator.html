@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Simple Calculator</title>
+
+    <style>
+
+        #calci{
+            background-color: blueviolet;
+            height: 600px;
+            width: 600px;
+        }
+
+        #inputDiv{
+            height: 250px;
+            width: 250px;
+            background-color:  gold;
+            margin-left:150px;
+        }
+
+        #outputDiv{
+            height: 250px;
+            width: 250px;
+            background-color:  goldenrod;
+            margin-left:150px;
+        }
+
+        body{
+            font-family: monospace;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div id="calci">
+
+    <h1>Akshay's Calci</h1>
+
+    <div id="inputDiv">
+        <p><input type="number" name="n1" id="n1js" placeholder="Enter First Number"></p>
+        <p><input type="number" name="n2" id="n2js" placeholder="Enter Second Number"></p>
+        <p id="btn"><br><input type="submit" value="+" onclick="add()"></p>
+        <p id="btn"><input type="submit" value="-" onclick="sub()"></p>
+        <p id="btn"><input type="submit" value="*" onclick="mul()"></p>
+        <p id="btn"><input type="submit" value="/" onclick="div()"></p>
+    </div>
+
+    <div id="outputDiv">
+        <p>Result : </p>
+        <p>Addition : <br></p>
+        <p id="add"></p>
+        <p>Subtraction : <br></p>
+        <p id="sub"></p>
+        <p>Multiplication : <br></p>
+        <p id="mul"></p>
+        <p>Division : <br></p>
+        <p id="div"></p>
+    </div>
+
+</div>
+
+    <script>
+        function add() {
+            // Any input accepted from the user is treated as a string by default in JavaScript.
+            num1 = document.getElementById("n1js").value;
+            num2 = document.getElementById("n2js").value;
+            sum = parseFloat(num1) + parseFloat(num2);
+            document.getElementById("add").innerHTML = sum;
+        }
+
+        function sub() {
+            // Any input accepted from the user is treated as a string by default in JavaScript.
+            num1 = document.getElementById("n1js").value;
+            num2 = document.getElementById("n2js").value;
+            sum = parseFloat(num1) - parseFloat(num2);
+            document.getElementById("sub").innerHTML = sum;
+        }
+
+        function mul() {
+            // Any input accepted from the user is treated as a string by default in JavaScript.
+            num1 = document.getElementById("n1js").value;
+            num2 = document.getElementById("n2js").value;
+            sum = parseFloat(num1) * parseFloat(num2);
+            document.getElementById("mul").innerHTML = sum;
+        }
+
+        function div() {
+            // Any input accepted from the user is treated as a string by default in JavaScript.
+            num1 = document.getElementById("n1js").value;
+            num2 = document.getElementById("n2js").value;
+            sum = parseFloat(num1) / parseFloat(num2);
+            document.getElementById("div").innerHTML = sum.toFixed(3);
+        }
+    </script>
+
+</body>
+
+</html>
