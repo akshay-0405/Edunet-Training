@@ -1,0 +1,12 @@
+/* External CSS */
+body{
+    background-color: rgb(159, 153, 165);
+}
+h2{
+    color: blue;
+}
+h1{
+    background-color: black;
+    border: solid white 3px;
+    border-radius: 10px;
+}

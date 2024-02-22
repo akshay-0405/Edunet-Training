@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+    <head>
+        
+        <meta Charset='UTF-8'/>
+        <title>AK's Website</title>
+        <style>
+            #parent{
+                background-color: orange;
+                height: 200px;
+                width: 200px;
+                margin: 50px 0px 0px 0px;
+                border:  solid 5px;
+
+            }
+            #child{
+                background-color: green;
+                height: 100px;
+                width: 100px;
+                margin-left: 50px;
+                margin-top: 50px;
+                border: solid 1px;
+            }
+            #parent:hover{
+                background-color: blueviolet;
+            }
+            #child:hover{
+                background-color: orange;
+                height: 200px;
+                width: 200px;
+            }
+            p{
+                color: white;
+            }
+            p::first-letter{
+                color: red;
+            }
+            p::first-line{
+                color: aqua;
+            }
+            p::before{
+                content: "$";
+            }
+            p::after{
+                content: "hello world!";
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <h1>Welome To AK's Website</h1>
+        <hr />
+
+        <div id="parent">
+            <div id="child">
+                <div id="">
+                    <p>Suraj is AI engineer</p>
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+</html>
