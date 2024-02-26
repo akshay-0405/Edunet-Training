@@ -2,6 +2,7 @@ CREATE SCHEMA NBNDB2;
 CREATE DATABASE NBNDB;
 SHOW SCHEMAS;
 
+4 Ways of Accessing MySQL databases:- 
 workbench
 shell
 command prompt

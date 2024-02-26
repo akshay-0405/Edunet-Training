@@ -1,0 +1,10 @@
+Constraints :- 
+1. Unique : Prevents duplicate values in applied Column.
+2. Not NULL : Doesn't accepts NULL Values for applied Column.
+3. Primary Key : Combination of Not NULL & Unique Key.
+4. Foreign Key : [ FOREIGN KEY(Renamed Column Name) REFERENCES Tablename(Primary Key) ] 
+DCL :-
+5. Commit -> for saving changes (rollback doesn't works)
+6. Set autocommit = 0 ; 
+7. Set autocommit = 1 ; ( Default )
+8. savepoint svname;
