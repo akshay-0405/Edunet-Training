@@ -1,0 +1,145 @@
+akshay@Victus:~/Desktop$ cd Edunet/
+akshay@Victus:~/Desktop/Edunet$ touch myScript.sh
+akshay@Victus:~/Desktop/Edunet$ nano myScript.sh 
+akshay@Victus:~/Desktop/Edunet$ bash myScript.sh 
+akshay@Victus:~/Desktop/Edunet$ touch myScript2.sh
+akshay@Victus:~/Desktop/Edunet$ nano myScript.sh
+akshay@Victus:~/Desktop/Edunet$ nano myScript2.sh
+akshay@Victus:~/Desktop/Edunet$ bash myScript2.sh 
+akshay@Victus:~/Desktop/Edunet$ nano myScript2.sh
+akshay@Victus:~/Desktop/Edunet$ cd NBN/
+akshay@Victus:~/Desktop/Edunet/NBN$ touch hello.sh
+akshay@Victus:~/Desktop/Edunet/NBN$ nano hello.sh
+akshay@Victus:~/Desktop/Edunet/NBN$ bash hello.sh 
+Enter your name : 
+Akshay
+Hello Akshay
+akshay@Victus:~/Desktop/Edunet/NBN$ nano hello.sh
+akshay@Victus:~/Desktop/Edunet/NBN$ touch variable.sh
+akshay@Victus:~/Desktop/Edunet/NBN$ nano variable.sh 
+akshay@Victus:~/Desktop/Edunet/NBN$ bash variable.sh
+variable.sh: line 3: n1: command not found
+variable.sh: line 4: n2: command not found
+variable.sh: line 5: n3: command not found
+Sum of  &  is
+akshay@Victus:~/Desktop/Edunet/NBN$ nano variable.sh 
+akshay@Victus:~/Desktop/Edunet/NBN$ bash variable.sh
+Sum of 10 & 20 is n1+n2
+akshay@Victus:~/Desktop/Edunet/NBN$ nano variable.sh 
+akshay@Victus:~/Desktop/Edunet/NBN$ bash variable.sh
+Sum of 10 & 20 is 30
+akshay@Victus:~/Desktop/Edunet/NBN$ nano variable.sh 
+akshay@Victus:~/Desktop/Edunet/NBN$ vim
+Command 'vim' not found, but can be installed with:
+sudo apt install vim         # version 2:8.2.3995-1ubuntu2.13, or
+sudo apt install vim-tiny    # version 2:8.2.3995-1ubuntu2.13
+sudo apt install vim-athena  # version 2:8.2.3995-1ubuntu2.13
+sudo apt install vim-gtk3    # version 2:8.2.3995-1ubuntu2.13
+sudo apt install vim-nox     # version 2:8.2.3995-1ubuntu2.13
+sudo apt install neovim      # version 0.6.1-3
+akshay@Victus:~/Desktop/Edunet/NBN$ nano variable.sh 
+akshay@Victus:~/Desktop/Edunet/NBN$ touch input.sh
+akshay@Victus:~/Desktop/Edunet/NBN$ nano input.sh 
+akshay@Victus:~/Desktop/Edunet/NBN$ bash input.sh 
+Enter Your First Number : 
+25
+Enter Your Second Number : 
+75
+Addition of 25 and 75 = 100
+akshay@Victus:~/Desktop/Edunet/NBN$ nano input.sh 
+akshay@Victus:~/Desktop/Edunet/NBN$ touch IfElse.sh
+akshay@Victus:~/Desktop/Edunet/NBN$ nano IfElse.sh 
+akshay@Victus:~/Desktop/Edunet/NBN$ bash IfElse.sh 
+Enter Number : 
+10
+IfElse.sh: line 6: [10: command not found
+Negative Number.
+akshay@Victus:~/Desktop/Edunet/NBN$ nano IfElse.sh 
+akshay@Victus:~/Desktop/Edunet/NBN$ bash IfElse.sh 
+Enter Number : 
+10
+Positive Number.
+akshay@Victus:~/Desktop/Edunet/NBN$ nano IfElse.sh 
+akshay@Victus:~/Desktop/Edunet/NBN$ bash IfElse.sh
+Enter Number : 
+-10
+Negative Number.
+Last Line!
+akshay@Victus:~/Desktop/Edunet/NBN$ nano IfElse.sh 
+akshay@Victus:~/Desktop/Edunet/NBN$ bash IfElse.sh 
+Enter Number : 
+0
+IfElse.sh: line 11: syntax error near unexpected token `else'
+IfElse.sh: line 11: `else'
+akshay@Victus:~/Desktop/Edunet/NBN$ nano IfElse.sh 
+akshay@Victus:~/Desktop/Edunet/NBN$ bash IfElse.sh 
+Enter Number : 
+0
+Zero
+Last Line!
+akshay@Victus:~/Desktop/Edunet/NBN$ nano IfElse.sh 
+akshay@Victus:~/Desktop/Edunet/NBN$ nano Task.sh
+akshay@Victus:~/Desktop/Edunet/NBN$ bash Task.sh 
+Enter your Percentage% : 
+50
+Task.sh: line 18: syntax error: unexpected end of file
+akshay@Victus:~/Desktop/Edunet/NBN$ nano Task.sh
+akshay@Victus:~/Desktop/Edunet/NBN$ bash Task.sh 
+Enter your Percentage% : 
+50
+FAIL!
+akshay@Victus:~/Desktop/Edunet/NBN$ bash Task.sh 
+Enter your Percentage% : 
+75
+Task.sh: line 12: [: -ls: binary operator expected
+FAIL!
+akshay@Victus:~/Desktop/Edunet/NBN$ nano Task.sh
+akshay@Victus:~/Desktop/Edunet/NBN$ bash Task.sh
+Enter your Percentage% : 
+75
+C grade
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
